@@ -10,13 +10,7 @@ dp = Dispatcher(bot)
 # hello message
 @dp.message_handler(commands =['start'])
 async def hello(message: types.message):
-    await message.reply(f'''
-Здравствуйте!
-
-Напишите, что хотите, и мы опубликуем его в нашем канале в ближайшие сроки.
- 
-Гарантируем анонимность🗣
-                        ''')
+    await message.reply(f'''hi, it's bot for transfer message to group''')
         
 @dp.message_handler()
 async def all_msg_handler(message: types.message):
