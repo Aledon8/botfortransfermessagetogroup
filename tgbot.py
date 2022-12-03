@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, executor, types
 
-API = '5803797844:AAGbLCYGDvalfSh3rv-17e4dOD6Y2pVianc'
-CHANNEL_ID = '-1001869477722'
+API = ''
+CHANNEL_ID = ''
 
 bot = Bot(token=API)
 dp = Dispatcher(bot)
